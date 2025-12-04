@@ -1,41 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>VirtualDiorama</title>
-<style>
-  body{font-family:Arial,Helvetica,sans-serif;background:#0f1720;color:#fff;margin:0;padding:18px}
-  .wrap{max-width:720px;margin:0 auto}
-  .logo{width:110px;display:block;margin:8px auto}
-  h1{font-size:24px;margin:8px 0}
-  .cta{display:inline-block;margin:12px 0;padding:12px 18px;background:#06b6d4;color:#000;border-radius:10px;text-decoration:none;font-weight:700}
-  .label{color:#7dd3fc;font-weight:700;margin-top:22px}
-  .card{background:#071024;padding:14px;border-radius:10px;margin-top:12px;box-shadow:0 6px 18px rgba(0,0,0,.4)}
-  img.responsive{width:100%;height:auto;border-radius:8px;display:block}
-  footer{opacity:.8;margin:30px 0 10px;font-size:13px}
-  @media(max-width:520px){h1{font-size:20px}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Diorama</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f3f3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 160px;
+            margin: 25px auto 10px auto;
+            display: block;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 26px;
+            color: #222;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            margin: 8px 20px 20px 20px;
+            color: #444;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 95%;
+            padding-bottom: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 28px;
+            border-radius: 12px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .botao {
+            display: block;
+            width: 240px;
+            padding: 12px;
+            margin: 20px auto;
+            background: #111;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .botao:hover {
+            background: #333;
+        }
+    </style>
 </head>
+
 <body>
-  <div class="wrap">
-    <img src="logo.png" class="logo" alt="VirtualDiorama logo">
-    <h1>VirtualDiorama — AI diorama generator for diecast photos</h1>
 
-    <a href="https://tinyfy.io/YourLinkHere" target="_blank" class="cta">🚀 Try the App</a>
+    <img src="logo_virtual_diorama.png" class="logo" alt="Logo Virtual Diorama">
 
-    <div class="label">Before</div>
-    <div class="card"><img class="responsive" src="hr_8387.cr2_-e1574446155118.webp" alt="Before"></div>
+    <h1>Virtual Diorama</h1>
+    <p>Transforme miniaturas em cenários realistas usando IA.</p>
 
-    <div class="label">After (style 1)</div>
-    <div class="card"><img class="responsive" src="gemini-custom-car (45).png" alt="After 1"></div>
+    <a class="botao" href="https://tinyfy.io/VDiorama" target="_blank">🔗 Abrir no AI Studio</a>
 
-    <div class="label">After (style 2)</div>
-    <div class="card"><img class="responsive" src="gemini-custom-car (46).png" alt="After 2"></div>
+    <div class="container">
 
-    <footer>
-      VirtualDiorama • <a href="https://github.com/SEU-USUARIO/VirtualDiorama" style="color:#7dd3fc">Repository</a>
-    </footer>
-  </div>
+        <!-- Exemplo 1 -->
+        <div class="card">
+            <img src="exemplo1.png">
+        </div>
+
+        <!-- Exemplo 2 -->
+        <div class="card">
+            <img src="exemplo2.png">
+        </div>
+
+        <!-- Exemplo 3 -->
+        <div class="card">
+            <img src="exemplo3.png">
+        </div>
+
+        <!-- Exemplo 4 -->
+        <div class="card">
+            <img src="exemplo4.png">
+        </div>
+
+        <!-- Exemplo 5 -->
+        <div class="card">
+            <img src="exemplo5.png">
+        </div>
+
+        <!-- Exemplo 6 -->
+        <div class="card">
+            <img src="exemplo6.png">
+        </div>
+
+        <!-- Exemplo 7 -->
+        <div class="card">
+            <img src="exemplo7.png">
+        </div>
+
+        <!-- Exemplo 8 -->
+        <div class="card">
+            <img src="exemplo8.png">
+        </div>
+
+    </div>
+
 </body>
 </html>
